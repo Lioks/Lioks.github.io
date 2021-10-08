@@ -87,7 +87,7 @@ input {
     background-color:gainsboro;
     border-radius: 15px;
     height: 30px;
-    width: 220px;
+    width: 250px;
     font-size: 22px;
 }
 ::-webkit-input-placeholder { 
