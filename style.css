@@ -5,6 +5,7 @@ body {
     background-size: cover;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-position: center center;
+    min-width: 360px;
 }
 .menu {
   display: block;
@@ -76,6 +77,7 @@ body {
     margin-bottom: 60px;
     margin-right: 65px;
     
+    
    
     
     
@@ -105,11 +107,28 @@ button a {
 @media only screen and (max-width: 650px) {
     .logo img {
         width: 150px;
-        height: auto;    
+        height: auto; 
+        margin-left: -45px;
+        margin-top: 0px;   
     }
     .phone {
         float: left;
-        margin-left: 40px;
-        margin-bottom: 60px;
-        margin-right: 65px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+    }
+    .cell {
+        margin-left: 30px;
+    }
+
+     .included {
+            margin-left: 30px;
+     }
+     .menu {
+       
+        left: 30px;
+     }
+     .search {
+        margin-right: 30px;
+        
 }
